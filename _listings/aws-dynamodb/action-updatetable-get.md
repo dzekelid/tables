@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateTable&k=1:
+  /?Action=UpdateTable:
     get:
       summary: ' Update Table '
       description: Modifies the provisioned throughput settings, global secondary
