@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeTableRestoreStatus&k=1:
+  /?Action=DescribeTableRestoreStatus:
     get:
       summary: ' Describe Table Restore Status '
       description: Lists the status of one or more table restore requests made using
