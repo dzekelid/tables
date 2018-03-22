@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListTables&k=1:
+  /?Action=ListTables:
     get:
       summary: ' List Tables '
       description: Returns an array of table names associated with the current account
