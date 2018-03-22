@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeTable&k=1:
+  /?Action=DescribeTable:
     get:
       summary: ' Describe Table '
       description: Returns information about the table, including the current status
