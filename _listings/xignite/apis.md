@@ -49,7 +49,7 @@ apis:
   tags: Tables
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tables/master/_listings/xignite/gethistoricalcrossratetables-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tables/master/_listings/xignite/gethistoricalcrossratetablesbidask-post.md
 x-common:
 - type: x-net-sdk
   url: http://xignite.github.io/DotNetSDK/
