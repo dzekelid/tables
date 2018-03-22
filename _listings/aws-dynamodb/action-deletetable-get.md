@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteTable&k=1:
+  /?Action=DeleteTable:
     get:
       summary: ' Delete Table '
       description: The DeleteTable operation deletes a table and all of its items
