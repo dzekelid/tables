@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateTable&k=1:
+  /?Action=CreateTable:
     get:
       summary: ' Create Table '
       description: The CreateTable operation adds a new table to your account
