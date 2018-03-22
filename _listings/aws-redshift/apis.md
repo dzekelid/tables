@@ -15,9 +15,9 @@ tags:
 - Data Warehouse
 - Data
 - Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/tables/master/_listings/aws-redshift/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/tables/master/_listings/aws-redshift/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Amazon Redshift API
@@ -30,7 +30,7 @@ apis:
   tags: Tables
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/tables/master/_listings/aws-redshift/action-describetablerestorestatus-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tables/master/_listings/aws-redshift/action-describetablerestorestatus-get.md
 x-common:
 - type: x-best-practices
   url: https://aws.amazon.com/redshift/developer-resources/#best-practices
