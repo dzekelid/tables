@@ -13,8 +13,8 @@ tags:
 - Stack Network
 - Database
 - Amazon Web Services
-created: "2018-03-22"
-modified: "2018-03-22"
+created: "2018-03-24"
+modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/tables/master/_listings/aws-dynamodb/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -27,7 +27,7 @@ apis:
   tags: Tables
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tables/master/_listings/aws-dynamodb/action-updatetable-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tables/master/_listings/aws-dynamodb/action-createtable-get.md
 x-common:
 - type: x-best-practices
   url: https://aws.amazon.com/dynamodb/developer-resources/#BestPractices
