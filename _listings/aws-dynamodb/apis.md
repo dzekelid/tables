@@ -27,7 +27,7 @@ apis:
   tags: Tables
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tables/master/_listings/aws-dynamodb/action-describetable-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tables/master/_listings/aws-dynamodb/action-listtables-get.md
 x-common:
 - type: x-best-practices
   url: https://aws.amazon.com/dynamodb/developer-resources/#BestPractices
