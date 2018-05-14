@@ -50,7 +50,7 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tables/master/_listings/xignite/gethistoricalcrossratetablesbidask-post.md
-- name: Xignite Currencies Get Historical Cross Rate Tables
+- name: Xignite Currencies Get Historical Cross Rate Tables Bid Ask
   description: Returns historical currency cross-rate tables for a range of dates.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/280-xignite.jpg
   humanURL: http://www.xignite.com
@@ -58,7 +58,7 @@ apis:
   tags: Tables
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tables/master/_listings/xignite/gethistoricalcrossratetables-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tables/master/_listings/xignite/gethistoricalcrossratetablesbidask-post.md
 x-common:
 - type: x-net-sdk
   url: http://xignite.github.io/DotNetSDK/
