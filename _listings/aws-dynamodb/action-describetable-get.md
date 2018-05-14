@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS DynamoDB API
+  title: Amazon DynamoDB API Describe Table
   version: 1.0.0
+  description: Returns information about the table, including the current status of
+    the table, when it was created, the primary key schema, and any indexes on the
+    table.
 schemes:
 - http
 produces:
