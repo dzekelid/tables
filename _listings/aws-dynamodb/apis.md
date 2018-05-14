@@ -28,16 +28,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tables/master/_listings/aws-dynamodb/action-updatetable-get.md
-- name: Amazon DynamoDB API List Tables
-  description: Returns an array of table names associated with the current account
-    and endpoint.
+- name: Amazon DynamoDB API Update Table
+  description: Modifies the provisioned throughput settings, global secondary indexes,
+    or DynamoDB Streams settings for a given table.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonDynamoDB.png
   humanURL: https://aws.amazon.com/dynamodb/
   baseURL: http:://{host}//
   tags: Tables
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tables/master/_listings/aws-dynamodb/action-listtables-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tables/master/_listings/aws-dynamodb/action-updatetable-get.md
 x-common:
 - type: x-best-practices
   url: https://aws.amazon.com/dynamodb/developer-resources/#BestPractices
