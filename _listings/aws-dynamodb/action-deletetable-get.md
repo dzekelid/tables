@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS DynamoDB API
+  title: Amazon DynamoDB API Delete Table
   version: 1.0.0
+  description: The DeleteTable operation deletes a table and all of its items.
 schemes:
 - http
 produces:
