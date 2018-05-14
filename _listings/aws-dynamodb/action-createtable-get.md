@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS DynamoDB API
+  title: Amazon DynamoDB API Create Table
   version: 1.0.0
+  description: The CreateTable operation adds a new table to your account.
 schemes:
 - http
 produces:
