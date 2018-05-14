@@ -28,15 +28,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tables/master/_listings/aws-dynamodb/action-updatetable-get.md
-- name: Amazon DynamoDB API Delete Table
-  description: The DeleteTable operation deletes a table and all of its items.
+- name: Amazon DynamoDB API Describe Table
+  description: Returns information about the table, including the current status of
+    the table, when it was created, the primary key schema, and any indexes on the
+    table.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonDynamoDB.png
   humanURL: https://aws.amazon.com/dynamodb/
   baseURL: http:://{host}//
   tags: Tables
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tables/master/_listings/aws-dynamodb/action-deletetable-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tables/master/_listings/aws-dynamodb/action-describetable-get.md
 x-common:
 - type: x-best-practices
   url: https://aws.amazon.com/dynamodb/developer-resources/#BestPractices
