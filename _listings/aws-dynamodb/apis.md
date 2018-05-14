@@ -28,7 +28,44 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tables/master/_listings/aws-dynamodb/action-updatetable-get.md
+- name: Amazon DynamoDB API Create Table
+  description: The CreateTable operation adds a new table to your account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonDynamoDB.png
+  humanURL: https://aws.amazon.com/dynamodb/
+  baseURL: http:://{host}//
+  tags: Tables
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tables/master/_listings/aws-dynamodb/action-createtable-get.md
 x-common:
+- type: x-best-practices
+  url: https://aws.amazon.com/dynamodb/developer-resources/#BestPractices
+- type: x-blog
+  url: https://aws.amazon.com/dynamodb/developer-resources/#BlogPosts
+- type: x-community
+  url: https://aws.amazon.com/dynamodb/community/
+- type: x-documentation
+  url: http://docs.aws.amazon.com/amazondynamodb/latest/APIReference/Welcome.html
+- type: x-documentation
+  url: http://docs.aws.amazon.com/dynamodbstreams/latest/APIReference/
+- type: x-faq
+  url: https://aws.amazon.com/dynamodb/faqs/
+- type: x-getting-started
+  url: https://aws.amazon.com/dynamodb/getting-started/
+- type: x-labs
+  url: https://aws.amazon.com/dynamodb/developer-resources/#SelfPacedLabs
+- type: x-partners
+  url: https://aws.amazon.com/dynamodb/partners/
+- type: x-pricing
+  url: https://aws.amazon.com/dynamodb/pricing/
+- type: x-sdk
+  url: https://aws.amazon.com/dynamodb/developer-resources/#SDK
+- type: x-slides
+  url: https://aws.amazon.com/dynamodb/developer-resources/#Slides
+- type: x-videos
+  url: https://aws.amazon.com/dynamodb/developer-resources/#Videos
+- type: x-website
+  url: https://aws.amazon.com/dynamodb/
 - type: x-best-practices
   url: https://aws.amazon.com/dynamodb/developer-resources/#BestPractices
 - type: x-blog
