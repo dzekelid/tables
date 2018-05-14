@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS DynamoDB API
+  title: Amazon DynamoDB API Update Table
   version: 1.0.0
+  description: Modifies the provisioned throughput settings, global secondary indexes,
+    or DynamoDB Streams settings for a given table.
 schemes:
 - http
 produces:
