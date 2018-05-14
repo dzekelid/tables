@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Redshift API
+  title: Amazon Redshift API Describe Table Restore Status
   version: 1.0.0
+  description: Lists the status of one or more table restore requests made using the.
 schemes:
 - http
 produces:
