@@ -1,28 +1,54 @@
 ---
 name: Firebase
-description: Firebase is a cloud service designed to power real-time, collaborative
-  applications. Developers add the Firebase library to their apps to get access to
-  a shared data structure; any changes they make to that data are automatically synchronized
-  with the Firebase cloud and with other clients within milliseconds.
-image: https://avatars1.githubusercontent.com/u/1335026?v=3
+x-slug: firebase
+description: Firebase is a mobile platform that helps you quicklydevelophigh-quality
+  apps,growyour user base, andearnmore money. Firebase is made up of complementary
+  features that you can mix-and-match to fit your needs.
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebase-logo.png
 x-kinRank: "9"
 x-alexaRank: ""
-tags:
-- Virtualization
-- Testing
-- Stack Network
-- Security
-- Real Time
-- Links
-- Google APIs
-- Database
-- Command Line Interface
-- API LIfeycle
-created: "2018-05-13"
-modified: "2018-05-13"
+tags: Tables
+created: "2018-05-20"
+modified: "2018-05-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/tables/master/_listings/firebase/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Firebase Rules Get Name Getexecutable
+  x-api-slug: firebase-rules
+  description: Get the `Release` executable to use when enforcing rules.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebase-logo.png
+  humanURL: https://firebase.google.com/
+  baseURL: https://firebaserules.googleapis.com/v1///{name}:getExecutable
+  tags: Names,Executables
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tables/master/_listings/firebase/namegetexecutable-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tables/master/_listings/firebase/namegetexecutable-get-openapi.md
+- name: Firebase Rules Parameters Name Getexecutable
+  x-api-slug: firebase-rules
+  description: Parameters name getexecutable.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebase-logo.png
+  humanURL: https://firebase.google.com/
+  baseURL: https://firebaserules.googleapis.com/v1///{name}:getExecutable
+  tags: Names,Executables
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tables/master/_listings/firebase/namegetexecutable-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tables/master/_listings/firebase/namegetexecutable-parameters-openapi.md
+- name: Firebase Rules
+  x-api-slug: firebase-rules
+  description: Firebase is a mobile platform that helps you quicklydevelophigh-quality
+    apps,growyour user base, andearnmore money. Firebase is made up of complementary
+    features that you can mix-and-match to fit your needs.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebase-logo.png
+  humanURL: https://firebase.google.com/
+  baseURL: https://firebaserules.googleapis.com/v1/
+  tags: Tables
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tables/master/_listings/firebase/openapi.md
 x-common:
 - type: x-blog
   url: https://firebase.googleblog.com/
