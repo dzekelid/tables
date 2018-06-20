@@ -9,10 +9,10 @@ description: Amazon Redshift is a fast, fully managed, petabyte-scaledata wareho
   costs to $333 per uncompressed terabyte per year.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Tables
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/tables/master/_listings/aws-redshift/apis.md
 specificationVersion: "0.14"
 apis:

@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "383974"
 tags: Tables
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/tables/master/_listings/xignite/apis.md
 specificationVersion: "0.14"
 apis:
@@ -18,20 +18,20 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetHistoricalCrossRateTables
-  tags: Historical, Cross, Rate, Tables
+  tags: Market Data,Historical, Cross, Rate, Tables
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tables/master/_listings/xignite/gethistoricalcrossratetables-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tables/master/_listings/xignite/gethistoricalcrossratetables-get-openapi.md
 - name: Xignite Currencies Get Historical Cross Rate Tables Bid Ask
   x-api-slug: xignite-currencies
   description: Returns historical currency cross-rate tables for a range of dates.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetHistoricalCrossRateTablesBidAsk
-  tags: Historical, Cross, Rate, Tables, Bid, Ask
+  tags: Market Data,Historical, Cross, Rate, Tables, Bid, Ask
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tables/master/_listings/xignite/gethistoricalcrossratetablesbidask-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tables/master/_listings/xignite/gethistoricalcrossratetablesbidask-get-openapi.md
 - name: Xignite Currencies
   x-api-slug: xignite-currencies
   description: Financial market data on-demand. Xignite financial Web services help
@@ -44,7 +44,7 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tables/master/_listings/xignite/openapi.md
 x-common:
-- type: x-net-sdk
+- type: x--net-sdk
   url: http://xignite.github.io/DotNetSDK/
 - type: x-base
   url: http://globalmaster.xignite.com
@@ -104,6 +104,10 @@ x-common:
   url: https://resources.xignite.com/webinars
 - type: x-website
   url: http://www.xignite.com
+- type: x-website
+  url: http://xignite.com
+- type: x-website
+  url: http://xignite.com/
 - type: x-white-papers
   url: http://www.xignite.com/market-data/resources/white-papers/
 include: []
