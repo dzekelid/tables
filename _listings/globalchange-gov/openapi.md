@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: GlobalChange.gov
 x-complete: 1
@@ -62,4 +61,57 @@ paths:
       tags:
       - Tables
       - Report
----
+  /report/{report_identifier}/chapter/{chapter_identifier}/table/{table_identifier}:
+    get:
+      summary: Get a representation of a table in a chapter.
+      description: Get JSON which represents the structure of a table in a chapter.
+      operationId: get-json-which-represents-the-structure-of-a-table-in-a-chapter
+      x-api-path-slug: reportreport-identifierchapterchapter-identifiertabletable-identifier-get
+      parameters:
+      - in: path
+        name: chapter_identifier
+        description: chapter_identifier description
+      - in: path
+        name: report_identifier
+        description: report_identifier description
+      - in: path
+        name: table_identifier
+        description: table_identifier description
+      - in: query
+        name: with_gcmd
+        description: Include GCMD keywords associated with the table
+      - in: query
+        name: with_regions
+        description: Include regions associated with the table
+      responses:
+        200:
+          description: OK
+      tags:
+      - Representation
+      - Table
+      - Chapter
+  /report/{report_identifier}/table/{table_identifier}:
+    get:
+      summary: Get a representation of a table.
+      description: Get JSON which represents the structure of a table.
+      operationId: get-json-which-represents-the-structure-of-a-table
+      x-api-path-slug: reportreport-identifiertabletable-identifier-get
+      parameters:
+      - in: path
+        name: report_identifier
+        description: report_identifier description
+      - in: path
+        name: table_identifier
+        description: table_identifier description
+      - in: query
+        name: with_gcmd
+        description: Include GCMD keywords associated with the table
+      - in: query
+        name: with_regions
+        description: Include regions associated with the table
+      responses:
+        200:
+          description: OK
+      tags:
+      - Representation
+      - Table

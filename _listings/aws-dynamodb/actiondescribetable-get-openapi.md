@@ -94,6 +94,62 @@ paths:
           description: OK
       tags:
       - Tables
+  /?Action=ListTables:
+    get:
+      summary: List Tables
+      description: Returns an array of table names associated with the current account
+        and endpoint.
+      operationId: listTables
+      x-api-path-slug: actionlisttables-get
+      parameters:
+      - in: query
+        name: ExclusiveStartTableName
+        description: The first table name that this operation will evaluate
+        type: string
+      - in: query
+        name: Limit
+        description: A maximum number of table names to return
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Tables
+  /?Action=UpdateTable:
+    get:
+      summary: Update Table
+      description: Modifies the provisioned throughput settings, global secondary
+        indexes, or DynamoDB Streams settings for a given table.
+      operationId: updateTable
+      x-api-path-slug: actionupdatetable-get
+      parameters:
+      - in: query
+        name: AttributeDefinitions
+        description: An array of attributes that describe the key schema for the table
+          and indexes
+        type: string
+      - in: query
+        name: GlobalSecondaryIndexUpdates
+        description: An array of one or more global secondary indexes for the table
+        type: string
+      - in: query
+        name: ProvisionedThroughput
+        description: The new provisioned throughput settings for the specified table
+          or index
+        type: string
+      - in: query
+        name: StreamSpecification
+        description: Represents the DynamoDB Streams configuration for the table
+        type: string
+      - in: query
+        name: TableName
+        description: The name of the table to be updated
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Tables
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
